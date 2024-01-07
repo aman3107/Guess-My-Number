@@ -20,6 +20,7 @@ const setScore = function (value) {
 
 const lostGame = function (score) {
   displayMessage('You Lost the Game');
+  //Do
   setScore(0);
 };
 
